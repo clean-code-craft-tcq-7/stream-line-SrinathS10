@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestBMSSender {
-    static Temperature temperature;
-    static SOC soc;
+    static BatteryProperty temperature;
+    static BatteryProperty soc;
 
     @BeforeAll
     static void setup() {
